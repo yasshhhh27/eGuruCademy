@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form'
 import { useDispatch, useSelector } from 'react-redux';
 import { addCourseDetails, editCourseDetails, fetchCourseCategories } from '../../../../../services/operations/courseDetailsAPI';
 import { HiOutlineCurrencyRupee } from 'react-icons/hi';
-// import { BiUpload } from 'react-icons/bi';
+import { BiUpload } from 'react-icons/bi';
 import RequirementField from './RequirementField';
 import { setStep, setCourse} from '../../../../../slices/courseSlice';
 import IconBtn from '../../../../common/IconBtn';
