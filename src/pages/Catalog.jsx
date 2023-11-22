@@ -53,8 +53,8 @@ const Catalog = () => {
           </div>
         )
       }
-    //   if (!loading && !catalogPageData.success) {
-    //     return <Error />
+    //   if (catalogPageData.success) {
+    //    
     //   }
     
       return (
